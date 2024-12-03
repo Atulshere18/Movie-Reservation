@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Movie-Reservation/static/css/main.b734fc22.css",
-    "main.js": "/Movie-Reservation/static/js/main.3f4c73e6.js",
+    "main.js": "/Movie-Reservation/static/js/main.d6589915.js",
     "index.html": "/Movie-Reservation/index.html",
     "main.b734fc22.css.map": "/Movie-Reservation/static/css/main.b734fc22.css.map",
-    "main.3f4c73e6.js.map": "/Movie-Reservation/static/js/main.3f4c73e6.js.map"
+    "main.d6589915.js.map": "/Movie-Reservation/static/js/main.d6589915.js.map"
   },
   "entrypoints": [
     "static/css/main.b734fc22.css",
-    "static/js/main.3f4c73e6.js"
+    "static/js/main.d6589915.js"
   ]
 }
