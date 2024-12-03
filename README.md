@@ -87,29 +87,6 @@ POST /movies: Add a new movie (admin-only).
 POST /showtimes: Add showtimes for a movie.
 POST /bookings: Reserve seats for a show.
 
-
-Folder Structure 📂
-plaintext
-Copy code
-Movie-Reservation/
-├── backend/
-│   ├── prisma/
-│   │   ├── migrations/
-│   │   └── schema.prisma
-│   ├── routes/
-│   ├── controllers/
-│   └── index.js
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   │   ├── LoginPage.jsx
-│   │   └── SignupPage.jsx
-│   ├── App.js
-│   └── index.js
-└── README.md
-
-
 Future Enhancements 🚀
 Payment Gateway Integration for online ticket bookings.
 Admin Panel to manage movies and bookings.
