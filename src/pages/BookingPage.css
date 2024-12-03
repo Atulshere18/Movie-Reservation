@@ -1,0 +1,121 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Movie Banner */
+  .movie-banner {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .movie-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .movie-description {
+    font-size: 1.2rem;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Seats Section */
+  .seats-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .seat:hover {
+    background-color: #a9a9a9;
+  }
+  
+  .seat.selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  /* Booking Controls */
+  .booking-controls {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .confirm-booking-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .confirm-booking-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Booking Success */
+  .booking-success {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 20px;
+    border: 1px solid #c8e6c9;
+    border-radius: 4px;
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
